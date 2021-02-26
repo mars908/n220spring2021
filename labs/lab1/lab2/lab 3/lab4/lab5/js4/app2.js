@@ -21,8 +21,9 @@ function draw() {
   ellipse(x, y, 66, 66);
 }
 
-if (mouseX < x + 7) {
-    fill(255,0,0);
-} else {
-    fill(0,0,0);
-}
+
+    if (mouseX < x + 7) {
+        fill(255,0,0);
+    } else {
+        fill(0,0,0);
+    }
