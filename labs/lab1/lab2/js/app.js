@@ -3,3 +3,4 @@ function draw() {
     x = x + .0016;
     console.log(x);
 }
+
