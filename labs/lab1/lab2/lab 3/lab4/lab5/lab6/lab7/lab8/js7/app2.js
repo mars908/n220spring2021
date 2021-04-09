@@ -1,4 +1,4 @@
-//This loop allows me to create the 100 squares without typing them all out, and sets all their dimensions to be the same.
+
 for (var i=0; i<100; i++){
 let main = document.querySelector("#main");
 //By making two elements, this allows we to change the second element and put it into this variable.
