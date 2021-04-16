@@ -21,6 +21,18 @@ for (var i=0; i<3; i++){
     dvSquares.style.float = "left";
     dvSquares.style.backgroundColor = objects[0].color;
     //These set the style settings for the squares created by the div tag above
+
+    
+    dvSquares.style.width = objects[1].width + "px";
+    dvSquares.style.height = objects[1].height + "px";
+    dvSquares.style.float = "left";
+    dvSquares.style.backgroundColor = objects[1].color;
+
+    
+    dvSquares.style.width = objects[2].width + "px";
+    dvSquares.style.height = objects[2].height + "px";
+    dvSquares.style.float = "left";
+    dvSquares.style.backgroundColor = objects[2].color;
     
     main.appendChild(dvSquares);
     
